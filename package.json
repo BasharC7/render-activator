@@ -1,0 +1,19 @@
+{
+  "name": "gyro-ping-service",
+  "version": "1.0.0",
+  "description": "Service to send HEAD requests every 2 minutes to keep server alive",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ping",
+    "keep-alive",
+    "health-check"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
