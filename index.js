@@ -100,7 +100,7 @@ function pingApp2() {
   
   const options = {
     hostname: url.hostname,
-    path: url.pathname,
+    path: '/',
     method: 'GET',
     timeout: 10000
   };
